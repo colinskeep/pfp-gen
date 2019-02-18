@@ -9,7 +9,7 @@ function gen (backgroundFile, firstLetter) {
       const topMargin = Math.floor(Math.random() * (metadata.height - 200));
       return image
       .extract({ left: leftMargin, top: topMargin, width: 200, height: 200})
-      .overlayWith(`letters/${firstLetter}.png`)
+      .overlayWith(`./node_modules/pfp-gen/letters/${firstLetter}.png`)
       .toFile('pfp_200x200.jpg')
     });
 };
