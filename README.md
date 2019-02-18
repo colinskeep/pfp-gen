@@ -30,4 +30,4 @@ returns: pfp_200x200.jpg
 Have an idea for pfp-gen?  Don't hesitate.
 
 ## Special Thanks  
-* [@bkawk](https://github.com/bkawk) - William Hill
+* [@bkawk](https://github.com/bkawk) - William Hill - The idea behind the project.
