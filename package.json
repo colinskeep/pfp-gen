@@ -1,0 +1,23 @@
+{
+  "name": "pfp-gen",
+  "version": "1.0.0",
+  "description": "A unique profile picture generator",
+  "main": "pfp-gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinskeep/pfp-gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinskeep/pfp-gen/issues"
+  },
+  "homepage": "https://github.com/colinskeep/pfp-gen#readme",
+  "dependencies": {
+    "sharp": "^0.21.3"
+  }
+}

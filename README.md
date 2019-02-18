@@ -21,7 +21,7 @@ pfp-gen requires 2 parameters:
 ````javascript
 const pfp = require('pfp-gen');
 
-pfp.gen('background.jpg', 'c');
+pfp.gen('background.jpg', 'A');
 ````
 returns: pfp_200x200.jpg  
 ![alt text](https://github.com/colinskeep/pfp-gen/blob/master/pfp_200x200.jpg?raw=true)  
