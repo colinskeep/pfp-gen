@@ -1,13 +1,13 @@
 # pfp-gen  
 ## A profile picture generator  
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")  
+![alt text](https://github.com/colinskeep/pfp-gen/blob/master/background.jpg?raw=true)  
 
 Given a background image and a letter, generate a generic profile picture for a user.  pfp-gen will crop a random 200x200 portion of a background image and overlay a letter to provide a unique profile picture for the user.
 
 ## Installation  
 
-#### npm install
+
 ````javascript
 npm install pfp-gen  --save
 ````
@@ -21,5 +21,13 @@ pfp-gen requires 2 parameters:
 ````javascript
 const pfp = require('pfp-gen');
 
-pfp('background.jpg', 'c');
+pfp.gen('background.jpg', 'c');
 ````
+returns: pfp_200x200.jpg  
+![alt text](https://github.com/colinskeep/pfp-gen/blob/master/pfp_200x200.jpg?raw=true)  
+
+## Contributing  
+Have an idea for pfp-gen?  Don't hesitate.
+
+## Special Thanks  
+* [@bkawk](https://github.com/bkawk) - William Hill
